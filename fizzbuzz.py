@@ -13,7 +13,7 @@ def fizzbuzz(n):
         return 'fizz'
     return n
 
-
+#  Generating a randomic numbers to test the code
 for i in range(100):
     numRandom = randint(0, 100)
     print(fizzbuzz(numRandom))
